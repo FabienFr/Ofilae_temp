@@ -3,93 +3,95 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col-12">
+          <h1 className="display-4 text-center mb-4">Bootstrap avec Next.js</h1>
+          <p className="lead text-center mb-5">
+            Configuration réussie de Bootstrap dans votre projet Next.js !
+          </p>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+
+      <div className="row">
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Card 1</h5>
+              <p className="card-text">Ceci est un exemple de card Bootstrap.</p>
+              <button className="btn btn-primary">Bouton Primary</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Card 2</h5>
+              <p className="card-text">Un autre exemple de card Bootstrap.</p>
+              <button className="btn btn-success">Bouton Success</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Card 3</h5>
+              <p className="card-text">Et encore un exemple de card.</p>
+              <button className="btn btn-warning">Bouton Warning</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        <div className="col-12">
+          <div className="alert alert-info" role="alert">
+            <strong>Félicitations !</strong> Bootstrap est maintenant configuré et fonctionnel dans votre projet Next.js.
+          </div>
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        <div className="col-md-6">
+          <div className="dropdown">
+            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu déroulant
+            </button>
+            <ul className="dropdown-menu">
+              <li><a className="dropdown-item" href="#">Action 1</a></li>
+              <li><a className="dropdown-item" href="#">Action 2</a></li>
+              <li><a className="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Ouvrir Modal
+          </button>
+        </div>
+      </div>
+
+      {/* Modal Bootstrap */}
+      <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="exampleModalLabel">Modal Bootstrap</h5>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              Ceci est un exemple de modal Bootstrap qui fonctionne grâce au JavaScript chargé côté client.
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" className="btn btn-primary">Sauvegarder</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

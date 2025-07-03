@@ -1,0 +1,74 @@
+.footer {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.goldBar {
+  width: 100%;
+  height: 4px;
+  background: #bfa76a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/20.png') center center/cover no-repeat;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 1rem 2.5rem 1rem;
+}
+
+.logo {
+  width: 340px;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    min-height: 180px;
+  }
+  .logo {
+    width: 220px;
+    margin-bottom: 0.7rem;
+  }
+  .content {
+    padding: 2.2rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    min-height: 120px;
+  }
+  .logo {
+    width: 140px;
+    margin-bottom: 0.5rem;
+  }
+} 

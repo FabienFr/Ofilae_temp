@@ -1,0 +1,162 @@
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 24px 0 24px;
+}
+
+.titre {
+  text-align: left;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #0d2823;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid #d1d5db;
+  margin: 0 0 32px 0;
+  width: 100%;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 56px;
+  max-width: 900px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.offreBloc {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin: 64px auto;
+  max-width: 1000px;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+}
+
+.offreBlocContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 80px 80px;
+}
+
+.divider {
+  width: 2px;
+  background: #fff;
+  opacity: 0.85;
+  margin: 0 24px;
+  border-radius: 1px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.10);
+  align-self: stretch;
+  min-height: 60px;
+  max-height: 100%;
+  display: block;
+}
+
+/* Les flex-basis sur les dividers spécifiques sont supprimés */
+.bloc1 .divider,
+.bloc2 .divider,
+.bloc3 .divider {
+  flex: none;
+  min-width: 0;
+  width: 2px;
+  margin: 0 24px;
+}
+
+/* Bloc 1 : titre à droite, texte à gauche, divider équilibré */
+.bloc1 .offreBlocTitre {
+  flex: 0 0 32%;
+  font-size: 4.2rem;
+  font-weight: 200;
+  text-align: right;
+  padding-left: 40px;
+  padding-right: 0;
+  line-height: 1.05;
+}
+.bloc1 .offreBlocTexte {
+  flex: 0 0 54%;
+  font-size: 1.35rem;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 56px;
+  padding-left: 0;
+}
+
+/* Bloc 2 : titre à gauche, texte à droite, divider plus large */
+.bloc2 .offreBlocTitre {
+  flex: 0 0 44%;
+  font-size: 4.2rem;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 56px;
+  line-height: 1.05;
+}
+.bloc2 .offreBlocTexte {
+  flex: 0 0 44%;
+  font-size: 1.35rem;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 0;
+  padding-left: 56px;
+}
+
+/* Bloc 3 : titre à droite, texte à gauche, divider équilibré */
+.bloc3 .offreBlocTitre {
+  flex: 0 0 36%;
+  font-size: 4.2rem;
+  font-weight: 200;
+  text-align: right;
+  padding-left: 40px;
+  padding-right: 0;
+  line-height: 1.05;
+}
+.bloc3 .offreBlocTexte {
+  flex: 0 0 56%;
+  font-size: 1.35rem;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 56px;
+  padding-left: 0;
+}
+
+@media (max-width: 1100px) {
+  .main {
+    padding: 32px 2vw 0 2vw;
+  }
+  .offreBloc {
+    max-width: 99vw;
+    min-height: 260px;
+  }
+  .offreBlocContent {
+    flex-direction: column;
+    padding: 32px 12px;
+    gap: 18px;
+  }
+  .divider {
+    display: none;
+  }
+  .offreBlocTitre {
+    font-size: 1.7rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: left !important;
+    margin-bottom: 12px;
+  }
+  .offreBlocTexte {
+    font-size: 1rem !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+  }
+} 

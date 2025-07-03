@@ -1,0 +1,56 @@
+/* Sofia Pro Font Definitions */
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaPro-Regular.woff2') format('woff2'),
+       url('/fonts/SofiaPro-Regular.woff') format('woff'),
+       url('/fonts/SofiaPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaPro-Semibold.woff2') format('woff2'),
+       url('/fonts/SofiaPro-Semibold.woff') format('woff'),
+       url('/fonts/SofiaPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS Variables for typography */
+:root {
+  --font-sofia-pro: 'Sofia Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --letter-spacing-titles: 0.02em; /* 20 points minimum pour l'approche */
+}
+
+/* Base typography classes */
+.sofia-pro-regular {
+  font-family: var(--font-sofia-pro);
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
+
+.sofia-pro-semibold {
+  font-family: var(--font-sofia-pro);
+  font-weight: var(--font-weight-semibold);
+  font-style: normal;
+  letter-spacing: var(--letter-spacing-titles);
+}
+
+/* Utility classes for text transforms */
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-titles);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  :root {
+    --letter-spacing-titles: 0.015em; /* Légèrement réduit sur mobile */
+  }
+} 
