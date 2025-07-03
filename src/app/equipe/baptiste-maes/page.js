@@ -31,10 +31,10 @@ export default function BaptisteMaes() {
           </div>
           <div className={styles.resume}>
             <div className={styles.line}><span className={styles.label}>Formation :</span> EDHEC + Master 2 en Gestion de Patrimoine</div>
-            <div className={styles.line}><span className={styles.label}>Expérience :</span> 17 ans d'expérience en family office</div>
+            <div className={styles.line}><span className={styles.label}>Expérience :</span> 17 ans d&apos;expérience en family office</div>
           </div>
           <div className={styles.presentation}>
-            Après des études commerciales et un début de parcours dans le conseil, baptiste intègre le Master 2 en gestion de patrimoine de Clermont-Ferrand. Il rejoint rapidement le Family Office Mobilis, comme juriste en droit patrimonial d'abord, puis comme manager au sein de l'antenne belge. Il prend ensuite les rênes d'une équipe de 15 personnes, y déployant une approche de la gestion centrée sur le client. Désireux de renforcer la qualité de l'accompagnement proposé aux familles, et sensible aux enjeux liés à la transmission intergénérationnelle, il crée Ofilae en 2020. Lorsqu'il n'est pas au bureau, Baptiste travaille tout de même toujours un peu... Adeptes des courts de tennis, des terrains de football et des pistes de ski, il accorde aussi à sa famille l'importance qu'elle mérite.
+            Après des études commerciales et un début de parcours dans le conseil, baptiste intègre le Master 2 en gestion de patrimoine de Clermont-Ferrand. Il rejoint rapidement le Family Office Mobilis, comme juriste en droit patrimonial d&apos;abord, puis comme manager au sein de l&apos;antenne belge. Il prend ensuite les rênes d&apos;une équipe de 15 personnes, y déployant une approche de la gestion centrée sur le client. Désireux de renforcer la qualité de l&apos;accompagnement proposé aux familles, et sensible aux enjeux liés à la transmission intergénérationnelle, il crée Ofilae en 2020. Lorsqu&apos;il n&apos;est pas au bureau, Baptiste travaille tout de même toujours un peu... Adeptes des courts de tennis, des terrains de football et des pistes de ski, il accorde aussi à sa famille l&apos;importance qu&apos;elle mérite.
           </div>
         </div>
       </div>
