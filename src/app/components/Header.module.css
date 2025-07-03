@@ -22,6 +22,7 @@
   flex: 0 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .menu {
@@ -69,18 +70,114 @@
   display: block;
 }
 
+/* --- MOBILE --- */
 @media (max-width: 900px) {
   .containerHeader {
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
     padding: 0 1vw;
+    min-height: 70px;
+  }
+  .logo {
+    flex: 1 1 auto;
+    justify-content: center;
   }
   .menu {
-    gap: 1.2rem;
-    font-size: 1rem;
+    display: none;
   }
   .pictos {
-    margin-left: 0;
-    gap: 1rem;
+    display: none;
+  }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1201;
+    margin-left: auto;
+  }
+  .burgerBar {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(.4,2,.3,1);
+  }
+  .burgerOpen .bar1 {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  .burgerOpen .bar2 {
+    opacity: 0;
+  }
+  .burgerOpen .bar3 {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  .mobileMenuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(13,44,35,0.98);
+    z-index: 1200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .mobileMenuItem {
+    font-family: var(--font-sofia-pro);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.12em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.18s;
+  }
+  .mobileMenuItem:hover {
+    color: #bfa76a;
+  }
+  .mobilePictos {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+  .mobilePictoLink {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: none;
+    transition: background 0.18s;
+  }
+  .mobilePictoLink:hover {
+    background: #17382e;
+  }
+  .mobilePicto {
+    width: 32px;
+    height: 32px;
+    display: block;
   }
 } 
