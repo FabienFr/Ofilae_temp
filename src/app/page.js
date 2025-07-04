@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <video
-        src="/home.mp4"
+        src="/Home.mp4"
         autoPlay
         loop
         muted
