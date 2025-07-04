@@ -6,15 +6,14 @@
   width: 100%;
   max-width: 950px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
 }
 
 .title {
   text-align: center;
   font-size: 5rem;
-  font-weight: 800;
   letter-spacing: 0.04em;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
   margin-top: 2.5rem;
   color: #153226;
 }
@@ -22,8 +21,9 @@
 .hr {
   border: none;
   border-top: 2px solid #153226;
-  width: 100%;
-  margin-bottom: 2.2rem;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 .intro {
@@ -32,7 +32,7 @@
   font-size: 1.25rem;
   font-weight: 400;
   color: #222;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,15 +52,16 @@
   font-size: 1.1rem;
   color: #222;
   text-align: left;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .bottomText {
   max-width: 700px;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #222;
-  margin: 2.5rem 0 2.5rem 0;
+  margin: 5rem 0 5rem 0;
+  padding-bottom: 1rem;
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
@@ -72,16 +73,16 @@
 
 @media (max-width: 900px) {
   .title {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     margin-bottom: 1.2rem;
   }
   .section {
     max-width: 100%;
-    padding: 0 0.7rem;
+    padding: 0 1.5rem;
   }
   .blocBeigeContent {
     font-size: 1rem;
-    padding: 0 0.7rem;
+    padding: 0 2.5rem;
   }
   .intro, .bottomText {
     font-size: 1rem;

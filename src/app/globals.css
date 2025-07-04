@@ -4,6 +4,7 @@
   --font-sofia-pro: 'Sofia Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
+  --font-weight-bold: 700;
   --letter-spacing-titles: 0.02em;
 }
 
@@ -18,12 +19,15 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-sofia-pro);
+  font-family: var(--font-sofia-pro) !important;
   font-weight: var(--font-weight-regular);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,4 +48,21 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.sofia-pro-semibold {
+  font-family: var(--font-sofia-pro);
+  font-weight: var(--font-weight-semibold);
+}
+
+.sofia-pro-regular {
+  font-family: var(--font-sofia-pro);
+  font-weight: var(--font-weight-regular);
+}
+
+video {
+  max-width: 100vw;
+  max-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }

@@ -20,6 +20,16 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaPro-Bold.woff2') format('woff2'),
+       url('/fonts/SofiaPro-Bold.woff') format('woff'),
+       url('/fonts/SofiaPro-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* CSS Variables for typography */
 :root {
   --font-sofia-pro: 'Sofia Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -40,6 +50,11 @@
   font-weight: var(--font-weight-semibold);
   font-style: normal;
   letter-spacing: var(--letter-spacing-titles);
+}
+
+.sofia-pro-bold {
+  font-family: var(--font-sofia-pro);
+  font-weight: var(--font-weight-bold);
 }
 
 /* Utility classes for text transforms */

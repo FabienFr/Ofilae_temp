@@ -1,5 +1,5 @@
 .header {
-  background: #0d2c23;
+  background: #00261e;
   border-bottom: 8px solid #bfa76a;
   min-height: 90px;
   display: flex;
@@ -62,7 +62,7 @@
   transition: background 0.18s;
 }
 .pictoLink:hover {
-  background: #17382e;
+  background: #00261e;
 }
 .picto {
   width: 32px;
@@ -80,7 +80,7 @@
   }
   .logo {
     flex: 1 1 auto;
-    justify-content: center;
+    justify-content: left;
   }
   .menu {
     display: none;
@@ -173,11 +173,11 @@
     transition: background 0.18s;
   }
   .mobilePictoLink:hover {
-    background: #17382e;
+    background: #00261e;
   }
   .mobilePicto {
     width: 32px;
     height: 32px;
     display: block;
   }
-} 
+}
