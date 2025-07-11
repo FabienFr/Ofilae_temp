@@ -9,7 +9,7 @@ export default function Offre() {
         NOTRE VALEUR AJOUTÉE, C&#39;EST DE FAIRE <b>EXPRIMER LE PROJET FAMILIAL</b> ET DE METTRE <b>LE PATRIMOINE AU SERVICE DU PROJET</b>
       </div>
 
-      <div className={styles.offreBloc + ' ' + styles.bloc1} style={{ backgroundImage: "url('/background10.png')" }}>
+      <div className={styles.offreBloc + ' ' + styles.bloc1} style={{ backgroundImage: "url('/projet_familial.png')" }}>
         <div className={styles.offreBlocContent}>
           <div className={styles.offreBlocTitre}>Projet familial</div>
           <div className={styles.divider}></div>
@@ -19,7 +19,7 @@ export default function Offre() {
         </div>
       </div>
 
-      <div className={styles.offreBloc + ' ' + styles.bloc2} style={{ backgroundImage: "url('/background14.png')" }}>
+      <div className={styles.offreBloc + ' ' + styles.bloc2} style={{ backgroundImage: "url('/planification_patrimoniale_allocation_actifs.png')" }}>
         <div className={styles.offreBlocContent}>
           <div className={styles.offreBlocTexte}>
             Forts d&apos;une expertise acquise dans les environnements les plus exigeants, nous transposons votre projet sur une feuille de route avec des stratégies précises, pérennes et optimisées.
@@ -29,7 +29,7 @@ export default function Offre() {
         </div>
       </div>
 
-      <div className={styles.offreBloc + ' ' + styles.bloc3} style={{ backgroundImage: "url('/background22.png')" }}>
+      <div className={styles.offreBloc + ' ' + styles.bloc3} style={{ backgroundImage: "url('/pilotage_financier_patrimonial.png')" }}>
         <div className={styles.offreBlocContent}>
           <div className={styles.offreBlocTitre}>Pilotage financier et patrimonial</div>
           <div className={styles.divider}></div>

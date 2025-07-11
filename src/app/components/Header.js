@@ -13,7 +13,7 @@ export default function Header() {
         {/* Logo */}
         <div className={styles.logo}>
           <Link href="/">
-            <Image src="/Ofilae_Logo.svg" alt="Ofilae" width={120} height={40} priority />
+            <Image src="/LOGOS_SIMPLE_BLANC.svg" alt="Ofilae" width={120} height={40} priority />
           </Link>
         </div>
         {/* Menu centré (desktop) */}
@@ -30,7 +30,7 @@ export default function Header() {
             <Image src="/linkedin.svg" alt="LinkedIn" width={32} height={32} className={styles.picto} />
           </a>
           <a href="mailto:contact@ofilae.com" className={styles.pictoLink} aria-label="Contact Ofilae">
-            <Image src="/mail.svg" alt="Contact" width={32} height={32} className={styles.picto} />
+            <Image src="/ENVELOPPE _new_blanche.svg" alt="Contact" width={32} height={32} className={styles.picto} />
           </a>
         </div>
         {/* Burger menu (mobile) */}

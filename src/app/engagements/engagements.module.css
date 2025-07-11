@@ -4,9 +4,9 @@
 
 .section {
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
 }
 
 .title {
@@ -15,28 +15,30 @@
   font-weight: 800;
   letter-spacing: 0.04em;
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   color: #153226;
 }
 
 .hr {
   border: none;
-  border-top: 2px solid #153226;
-  width: 50%;
+  border-top: 2px solid #00261e;
+  width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 .intro {
-  max-width: 600px;
+  max-width: 580px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   color: #222;
-  margin: 0 auto 2.5rem auto;
+  margin: O auto 2.5rem auto;
 }
 
-.intro b {
+.intro p {
   font-weight: 700;
+  padding-top: 2rem;
 }
 
 .engagementsList {
@@ -62,7 +64,7 @@
 
 .engTitle {
   font-size: 2.1rem;
-  font-weight: 400;
+  font-weight: 200;
   color: #bfc7c2;
   letter-spacing: 0.03em;
   margin-bottom: 0.7rem;
@@ -114,21 +116,74 @@
   }
 }
 
+.engagementBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 64px;
+  width: 85%;
+  max-width: 700px;
+}
+.left {
+  align-self: flex-start;
+  padding-left: 0;
+  padding-right: 10%;
+}
+.right {
+  align-self: flex-end;
+  padding-left: 10%;
+  padding-right: 0;
+}
+.center {
+  align-self: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.engagementNumberSvg {
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 0;
+}
+.engagementTitle {
+  font-family: var(--font-sofia-pro);
+  font-weight: 300;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #bfc7c2;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+  text-align: left;
+  line-height: 1.05;
+}
+.center .engagementTitle {
+  text-align: center;
+}
+.engagementText {
+  font-size: 1.08rem;
+  color: #222;
+  margin-bottom: 0.2rem;
+  max-width: 420px;
+  text-align: left;
+}
+.center .engagementText {
+  text-align: center;
+}
 .engagements-bg {
-  background: #F8F8F5;
+  background: #fff;
   min-height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 0;
 }
-
 .engagements-main {
-  max-width: 900px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
-  padding: 56px 48px 48px 48px;
+  padding: 48px 48px 52px 48px;
   border-radius: 0;
   display: flex;
   flex-direction: column;
@@ -136,28 +191,32 @@
 }
 
 .engagements-title {
-  font-size: 72px;
+  font-size: 5em;
   font-weight: 700;
   text-align: center;
   color: #1a2c23;
   margin-bottom: 16px;
+  margin-bottom: 2.5rem;
   letter-spacing: 1px;
 }
 
 .engagements-hr {
   border: none;
   border-top: 1px solid #b5bbb5;
-  width: 80%;
+  width: 97%;
+  min-width: 0;
+  max-width: 100%;
   margin: 0 auto 32px auto;
 }
 
 .engagements-intro p {
-  font-size: 18px;
+  font-size: 1.35rem;
   line-height: 1.7;
   color: #222;
   text-align: left;
   margin-bottom: 60px;
-  max-width: 600px;
+  max-width: 580px;
+  text-transform: uppercase;
 }
 
 .engagements-list {
@@ -228,5 +287,25 @@
   .engagement-block {
     margin-bottom: 40px;
     max-width: 100%;
+  }
+  .engagements-main {
+    padding: 24px 4vw 16px 4vw;
+  }
+  .engagementBlock {
+    align-items: center !important;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+  .engagementNumberSvg {
+    width: 72px;
+    margin-bottom: 24px;
+  }
+  .engagementTitle {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .engagementText {
+    font-size: 13px;
+    text-align: center;
   }
 }
