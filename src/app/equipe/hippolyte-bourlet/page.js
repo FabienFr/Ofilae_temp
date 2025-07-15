@@ -26,7 +26,7 @@ export default function HippolyteBourlet() {
             <div className={styles.line}><span className={styles.label}>Expérience :</span> -</div>
           </div>
           <div className={styles.presentation}>
-            En deuxième année de cursus d'Ingénierie Financière et Statistique à l'ESME SUDRIA, Hippolyte prépare un double Master en Management de projet à l'ISG. Après une première expérience en tant qu'Opérateur stagiaire dans le domaine bancaire, il développe un reporting patrimonial pour une foncière lilloise. Il rejoint l'équipe Ofilae en tant qu'alternant chef de projet data finance, afin d'épauler Clément sur la stratégie Data et la mise en place d'outils de consolidation et d'allocation d'actifs. Lorsqu'il n'est pas au bureau, Hippolyte se passionne pour l'automobile et les sports mécaniques et apprécie les moments d'échange et de convivialité entre passionnées. Il partage également avec ses proches un fort attrait pour l'immobilier.
+            En deuxième année de cursus d’Ingénierie Financière et Statistique à l’ESME SUDRIA, Hippolyte prépare un double Master en Management de projet à l’ISG. Après une première expérience en tant qu’Opérateur stagiaire dans le domaine bancaire, il développe un reporting patrimonial pour une foncière lilloise. Il rejoint l’équipe Ofilae en tant qu’alternant chef de projet data finance, afin d’épauler Clément sur la stratégie Data et la mise en place d’outils de consolidation et d’allocation d’actifs. Lorsqu’il n’est pas au bureau, Hippolyte se passionne pour l’automobile et les sports mécaniques et apprécie les moments d’échange et de convivialité entre passionnés. Il partage également avec ses proches un fort attrait pour l’immobilier.
           </div>
         </div>
       </div>

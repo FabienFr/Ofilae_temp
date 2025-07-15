@@ -26,7 +26,7 @@ export default function ArmandDeAlmeida() {
             <div className={styles.line}><span className={styles.label}>Expérience :</span> -</div>
           </div>
           <div className={styles.presentation}>
-            Fraichement arrivé en juillet 2024, Armand rejoint l'équipe d'Ofilae en alternance dans la cadre de son Master 1 Droit et Gestion de Patrimoine de Lille. Après un échange universitaire en Azerbaïdjan, il débute cette première expérience sous la supervision de Pierre-Yves au pôle Investissement. Lorsqu'il n'est pas au bureau, Armand consacre du temps à sa famille, aux voyages et à son sport favori : le water-polo. Toujours de bonnes occasions pour échanger et apprendre.
+            Fraîchement arrivé en juillet 2024, Armand rejoint l’équipe d’Ofilae en alternance dans le cadre de son Master 1 Droit et Gestion de Patrimoine de Lille. Après un échange universitaire en Azerbaïdjan, il débute cette première expérience sous la supervision de Pierre-Yves au pôle Investissement. Lorsqu’il n’est pas au bureau, Armand consacre du temps à sa famille, aux voyages et à son sport favori : le water-polo. Toujours de bonnes occasions pour échanger et apprendre.
           </div>
         </div>
       </div>

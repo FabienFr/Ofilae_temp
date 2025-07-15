@@ -23,10 +23,10 @@ export default function NasandratraRajohnson() {
           </div>
           <div className={styles.resume}>
             <div className={styles.line}><span className={styles.label}>Formation :</span> Master 2 Gestion de Patrimoine</div>
-            <div className={styles.line}><span className={styles.label}>Expérience :</span> 5 ans d'expériences en Family office</div>
+            <div className={styles.line}><span className={styles.label}>Expérience :</span> 5 ans d’expériences en Family office</div>
           </div>
           <div className={styles.presentation}>
-            C'est à dix-huit ans, une fois son baccalauréat en poche, que Nasandratra quitte l'île de Madagascar, où elle est née, pour rejoindre la France. Son parcours universitaire l'amène à intégrer le Master 2 en gestion de patrimoine de Clermont-Ferrand, puis à effectuer un premier stage en cabinet de gestion de patrimoine à Rennes, au cours duquel elle s'intéresse surtout à la fiscalité. Désireuse de se forger une expérience en Family Office, elle rejoint Ofilae, d'abord en alternance. Puis, séduite par les compétences de l'équipe, la variété des missions et l'ambiance chaleureuse du Nord, elle y signe un CDI en septembre 2022. Lorsqu'elle n'est pas au bureau, Nasandratra aime fréquenter sa salle de sport favorite pour des séances de cardio ou de musculation. Elle chante aussi à ses heures perdues.
+            C’est à dix-huit ans, une fois son baccalauréat en poche, que Nasandratra quitte l’île de Madagascar, où elle est née, pour rejoindre la France. Son parcours universitaire l’amène à intégrer le Master 2 en gestion de patrimoine de Clermont-Ferrand, puis à effectuer un premier stage en cabinet de gestion de patrimoine à Rennes, au cours duquel elle s’intéresse surtout à la fiscalité. Désireuse de se forger une expérience en Family Office, elle rejoint Ofilae, d’abord en alternance. Puis, séduite par les compétences de l’équipe, la variété des missions et l’ambiance chaleureuse du Nord, elle y signe un CDI en septembre 2022. Lorsqu’elle n’est pas au bureau, Nasandratra aime fréquenter sa salle de sport favorite pour des séances de cardio ou de musculation. Elle chante aussi à ses heures perdues.
           </div>
         </div>
       </div>

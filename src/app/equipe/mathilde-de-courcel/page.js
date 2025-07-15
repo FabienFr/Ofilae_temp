@@ -23,10 +23,10 @@ export default function MathildeDeCourcel() {
           </div>
           <div className={styles.resume}>
             <div className={styles.line}><span className={styles.label}>Formation :</span> Em Lyon + DU Gestion de patrimoine</div>
-            <div className={styles.line}><span className={styles.label}>Expérience :</span> 23 ans d'expérience en salle des marchés et gestion de fortune</div>
+            <div className={styles.line}><span className={styles.label}>Expérience :</span> 23 ans d’expérience en salle des marchés et gestion de fortune</div>
           </div>
           <div className={styles.presentation}>
-            Diplômée de l'EM Lyon, Mathilde intègre la salle de marché de BNP Paribas en tant que vendeuse de produits structurés à destination des Banques Privées. Après presque 10 ans, Mathilde reprend une formation de gestion de patrimoine à l'AUREP et rejoint BNP Paribas Wealth Management. D'abord au siège pour créer une offre dédiée aux Keyx Clients et ensuite pendant 8 ans en tant que Banquier Privé. En 2023, elle suit Jean-Marc pour relever le défi de créer Ofilae Paris avec la volonté commune de renforcer la qualité de l'accompagnement proposé aux familles en construisant une relation de proximité basée sur la confiance, la recherche d'impact, le conseil et l'adaptabilité aux besoins de chacun. Lorsqu'elle n'est pas au bureau, Mathilde est très engagée auprès d'associations qui lui tiennent à coeur et s'occupe de sa "nombreuse" famille !
+            Diplômée de l’EM Lyon, Mathilde intègre la salle de marché de BNP Paribas en tant que vendeuse de produits structurés à destination des Banques Privées. Après presque 10 ans, Mathilde reprend une formation de gestion de patrimoine à l’AUREP et rejoint BNP Paribas Wealth Management. D’abord au siège pour créer une offre dédiée aux Keyx Clients et ensuite pendant 8 ans en tant que Banquier Privé. En 2023, elle suit Jean-Marc pour relever le défi de créer Ofilae Paris avec la volonté commune de renforcer la qualité de l’accompagnement proposé aux familles en construisant une relation de proximité basée sur la confiance, la recherche d’impact, le conseil et l’adaptabilité aux besoins de chacun. Lorsqu’elle n’est pas au bureau, Mathilde est très engagée auprès d’associations qui lui tiennent à cœur et s’occupe de sa « nombreuse » famille !
           </div>
         </div>
       </div>
