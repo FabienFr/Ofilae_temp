@@ -16,71 +16,71 @@ export default function Equipe() {
           <div className={styles.nom}>BAPTISTE MAES</div>
           <div className={styles.fonction}>Family Officer associé & Président Ofilae</div>
         </Link>
-        <div className={styles.card}>
+        <Link href="/equipe/mathilde-de-courcel" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Mathilde-.jpg" alt="Mathilde de Courcel" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>MATHILDE DE COURCEL</div>
           <div className={styles.fonction}>Family Officer associée & Directrice Générale Ofilae Paris</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/jean-marc-aveline" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Jean-Marc.jpg" alt="Jean-Marc Aveline" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>JEAN-MARC AVELINE</div>
           <div className={styles.fonction}>Family Officer associé & Président Ofilae Paris</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/mylene-rolle" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Mylene-.jpg" alt="Mylène Rolle" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>MYLÈNE ROLLE</div>
           <div className={styles.fonction}>Family Officer associée</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/thibault-chastan" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Thibault-.jpg" alt="Thibault Chastan" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>THIBAULT CHASTAN</div>
           <div className={styles.fonction}>Family Officer associé Responsable de l&apos;ingénierie patrimoniale</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/celine-bernard" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Celine-.jpg" alt="Céline Bernard" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>CÉLINE BERNARD</div>
           <div className={styles.fonction}>Family Officer associée</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/pierre-yves-charlet" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/PY.jpg" alt="Pierre-Yves Charlet" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>PIERRE-YVES CHARLET</div>
           <div className={styles.fonction}>Responsable des Investissements</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/sandrine-meens" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Sandrine-.jpg" alt="Sandrine Méens" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>SANDRINE MÉENS</div>
           <div className={styles.fonction}>Responsable du Secrétariat Privé</div>
-        </div>
-        <div className={styles.card}>
+        </Link>
+        <Link href="/equipe/evena-pencreach" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
           <Image src="/Nasa-.jpg" alt="Evéna Pencréach" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>EVÉNA PENCRÉACH</div>
           <div className={styles.fonction}>Office Manager</div>
-        </div>
-        <div className={styles.card}>
-          <Image src="/Evéna_.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
-          <div className={styles.nom}>HEVENA PENCRÉACH</div>
-          <div className={styles.fonction}>Office Manager</div>
-        </div>
-        <div className={styles.card}>
-          <Image src="/Clement-.jpg" alt="Clément Pruvost" width={220} height={220} className={styles.photo} />
-          <div className={styles.nom}>PRUVOST CLÉMENT</div>
-          <div className={styles.fonction}>Responsable du Middle Office</div>
-        </div>
-        <div className={styles.card}>
-          <Image src="/Oscar_.jpg" alt="Oscar" width={220} height={220} className={styles.photo} />
-          <div className={styles.nom}>OSCAR GUESDON</div>
-          <div className={styles.fonction}>Apprenti Assistant Family Officer</div>
-        </div>
-        <div className={styles.card}>
-          <Image src="/Hippolyte-.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
+        </Link>
+        <Link href="/equipe/hippolyte-bourlet" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
+          <Image src="/Hippolyte-.jpg" alt="Hippolyte Bourlet" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>HIPPOLYTE BOURLET</div>
           <div className={styles.fonction}>Apprenti Chef de Projet Data</div>
-        </div>
-        <div className={styles.card}>
-          <Image src="/Armand_.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
+        </Link>
+        <Link href="/equipe/clement-pruvost" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
+          <Image src="/Clement-.jpg" alt="Clément Pruvost" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>CLÉMENT PRUVOST</div>
+          <div className={styles.fonction}>Responsable du Middle Office</div>
+        </Link>
+        <Link href="/equipe/oscar-guesdon" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
+          <Image src="/Oscar_.jpg" alt="Oscar Guesdon" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>OSCAR GUESDON</div>
+          <div className={styles.fonction}>Apprenti Assistant Family Officer</div>
+        </Link>
+        <Link href="/equipe/nasandratra-rajohnson" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
+          <Image src="/Nasa-.jpg" alt="Nasandratra Rajohnson" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>NASANDRATRA RAJOHNSON</div>
+          <div className={styles.fonction}>Chargée de missions patrimoniales & conformité</div>
+        </Link>
+        <Link href="/equipe/armand-de-almeida" className={styles.card} style={{textDecoration: 'none', color: 'inherit'}}>
+          <Image src="/Armand_.jpg" alt="Armand de Almeida" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>ARMAND DE ALMEIDA</div>
           <div className={styles.fonction}>Apprenti Assistant Middle Office</div>
-        </div>
+        </Link>
       </div>
       <div style={{ height: "80px" }}></div>
     </main>
