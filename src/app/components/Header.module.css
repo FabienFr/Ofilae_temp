@@ -89,11 +89,20 @@
   backdrop-filter: blur(8px);
 }
 
+.headerHome:hover {
+  background: rgba(255,255,255,0.85) !important;
+}
+
 .menuItemGreen {
   color: #00261e !important;
 }
 .menuItemGreen:hover {
   color: #bfa76a !important;
+}
+
+.pictoGreen {
+  filter: invert(27%) sepia(98%) saturate(1000%) hue-rotate(120deg) brightness(0.7);
+  /* ou remplace par un SVG vert directement */
 }
 
 .burgerBarGreen {
