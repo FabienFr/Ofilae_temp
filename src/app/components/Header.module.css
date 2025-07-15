@@ -82,15 +82,9 @@
 }
 
 .headerHome {
-  background: rgba(255,255,255,0.4) !important;
-  backdrop-filter: blur(8px);
+  background: none !important;
   box-shadow: none !important;
-  transition: background 0.3s;
-  backdrop-filter: blur(8px);
-}
-
-.headerHome:hover {
-  background: rgba(255,255,255,0.85) !important;
+  backdrop-filter: none !important;
 }
 
 .menuItemGreen {
@@ -193,9 +187,6 @@
     color: #fff;
     text-decoration: none;
     transition: color 0.18s;
-  }
-  .mobileMenuItem:hover {
-    color: #bfa76a;
   }
   .mobilePictos {
     display: flex;
