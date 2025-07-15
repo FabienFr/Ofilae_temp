@@ -166,3 +166,36 @@ a.secondary {
     filter: invert();
   }
 }
+
+.videoDesktop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
+}
+
+.videoMobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .videoDesktop {
+    display: none;
+  }
+  .videoMobile {
+    display: block;
+  }
+}
