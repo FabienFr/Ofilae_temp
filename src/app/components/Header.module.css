@@ -81,6 +81,25 @@
   transform: translateY(6px);
 }
 
+.headerHome {
+  background: rgba(255,255,255,0.4) !important;
+  backdrop-filter: blur(8px);
+  box-shadow: none !important;
+  transition: background 0.3s;
+  backdrop-filter: blur(8px);
+}
+
+.menuItemGreen {
+  color: #00261e !important;
+}
+.menuItemGreen:hover {
+  color: #bfa76a !important;
+}
+
+.burgerBarGreen {
+  background: #00261e !important;
+}
+
 /* --- MOBILE --- */
 @media (max-width: 900px) {
   .containerHeader {
