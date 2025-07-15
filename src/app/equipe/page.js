@@ -57,11 +57,30 @@ export default function Equipe() {
           <div className={styles.fonction}>Office Manager</div>
         </div>
         <div className={styles.card}>
+          <Image src="/Evéna_.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>HEVENA PENCRÉACH</div>
+          <div className={styles.fonction}>Office Manager</div>
+        </div>
+        <div className={styles.card}>
           <Image src="/Clement-.jpg" alt="Clément Pruvost" width={220} height={220} className={styles.photo} />
           <div className={styles.nom}>PRUVOST CLÉMENT</div>
           <div className={styles.fonction}>Responsable du Middle Office</div>
         </div>
-        {/* Ajouter d'autres membres ici si besoin */}
+        <div className={styles.card}>
+          <Image src="/Oscar_.jpg" alt="Oscar" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>OSCAR GUESDON</div>
+          <div className={styles.fonction}>Apprenti Assistant Family Officer</div>
+        </div>
+        <div className={styles.card}>
+          <Image src="/Hippolyte-.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>HIPPOLYTE BOURLET</div>
+          <div className={styles.fonction}>Apprenti Chef de Projet Data</div>
+        </div>
+        <div className={styles.card}>
+          <Image src="/Armand_.jpg" alt="Hippolyte" width={220} height={220} className={styles.photo} />
+          <div className={styles.nom}>ARMAND DE ALMEIDA</div>
+          <div className={styles.fonction}>Apprenti Assistant Middle Office</div>
+        </div>
       </div>
       <div style={{ height: "80px" }}></div>
     </main>
