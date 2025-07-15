@@ -46,6 +46,9 @@
   background: none;
   box-shadow: none;
   padding: 0;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .photo {
@@ -79,6 +82,12 @@
   .grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 20px;
+    justify-items: center;
+    width: 100%;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
   }
   .main {
     padding: 40px 6vw 0 6vw;
@@ -89,6 +98,12 @@
   .grid {
     grid-template-columns: 1fr;
     gap: 32px 0;
+    justify-items: center;
+    width: 100%;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
   }
   .titre {
     font-size: 2.1rem;

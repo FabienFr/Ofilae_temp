@@ -15,7 +15,7 @@ export default function BaptisteMaes() {
           />
         </div>
         <div className={styles.infoCol}>
-          <h1 className="sofia-pro-semibold text-uppercase" style={{fontSize: '2.8rem', marginBottom: '1rem'}}>
+        <h1 className={`${styles.profilTitle} sofia-pro-semibold text-uppercase`} style={{fontSize: '2.8rem', marginBottom: '1rem'}}>
             Baptiste Maes
           </h1>
           <div className="sofia-pro-regular text-uppercase" style={{fontSize: '1.1rem', marginBottom: '1.5rem', letterSpacing: '0.08em'}}>

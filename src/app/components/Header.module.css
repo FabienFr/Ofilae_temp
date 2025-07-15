@@ -91,7 +91,8 @@
   }
   .logo {
     flex: 1 1 auto;
-    justify-content: left;
+    justify-content: flex-start;
+    padding-left: 12px
   }
   .menu {
     display: none;

@@ -63,6 +63,7 @@ export default function Equipe() {
         </div>
         {/* Ajouter d'autres membres ici si besoin */}
       </div>
+      <div style={{ height: "80px" }}></div>
     </main>
   );
 } 
