@@ -140,12 +140,12 @@
   padding-right: 0;
 }
 .engagementNumberSvg {
-  width: 120px;
+  width: 180px;
   height: auto;
   flex-shrink: 0;
   display: block;
   margin-bottom: 2px;
-  margin-left: 0;
+  margin-left: -20px;
 }
 .engagementTitle {
   font-family: var(--font-sofia-pro);
@@ -159,7 +159,7 @@
   line-height: 1.05;
 }
 .center .engagementTitle {
-  text-align: center;
+  text-align: left;
 }
 .engagementText {
   font-size: 1.08rem;
@@ -169,7 +169,7 @@
   text-align: left;
 }
 .center .engagementText {
-  text-align: center;
+  text-align: left;
 }
 .engagements-bg {
   background: #fff;
