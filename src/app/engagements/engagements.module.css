@@ -274,6 +274,15 @@
   }
   .engagements-title {
     font-size: 2.8rem;
+    padding-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .engagements-hr {
+    width: 70%;
+  }
+  .engagements-intro p {
+    font-size: 1rem;
+    padding-left: 12px;
   }
   .engagement-number {
     font-size: 48px;
@@ -299,13 +308,15 @@
   .engagementNumberSvg {
     width: 72px;
     margin-bottom: 24px;
+    margin-left: 0;
+    align-self: flex-start;
   }
   .engagementTitle {
     font-size: 1.6rem;
-    text-align: center;
+    text-align: left;
   }
   .engagementText {
     font-size: 13px;
-    text-align: center;
+    text-align: left;
   }
 }

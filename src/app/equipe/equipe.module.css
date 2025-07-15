@@ -92,6 +92,13 @@
   .main {
     padding: 40px 6vw 0 6vw;
   }
+  .hr {
+    width: 70%;
+  }
+  .intro {
+    font-size: 1rem;
+    padding-left: 12px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -106,7 +113,7 @@
     margin-right: auto;
   }
   .titre {
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     text-align: center;
   }
   .intro {
