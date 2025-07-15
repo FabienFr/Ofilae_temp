@@ -191,11 +191,488 @@ a.secondary {
   display: none;
 }
 
+/* Section vide pour la vidéo en plein écran */
+.videoSection {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 0;
+}
+
 @media (max-width: 768px) {
   .videoDesktop {
     display: none;
   }
   .videoMobile {
     display: block;
+  }
+}
+
+/* Section Family Office - Copie exacte de family-office.module.css */
+.familyOfficeSection {
+  background: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+.section {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 5rem 3rem 0 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 2.5rem;
+  margin-top: 5rem;
+  color: #153226;
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid #00261e;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.intro {
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blocBeigeFull {
+  width: 100vw;
+  background: #fefff0;
+  margin-left: 0;
+  transform: none;
+  padding: 3.5rem 0;
+}
+
+.blocBeigeContent {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  color: #222;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.bottomText {
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.35rem;
+  color: #222;
+  margin: 5rem 0 5rem 0;
+  padding-bottom: 1rem;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomText b {
+  font-weight: 700;
+}
+
+/* Section Engagements - Copie exacte de engagements.module.css */
+.engagementsSection {
+  background: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+.engagementsMain {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 48px 52px 48px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.engagementsTitle {
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  color: #1a2c23;
+  margin-bottom: 16px;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.engagementsHr {
+  border: none;
+  border-top: 1px solid #b5bbb5;
+  width: 97%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0 auto 32px auto;
+}
+
+.engagementsIntro p {
+  font-size: 1.35rem;
+  line-height: 1.7;
+  color: #222;
+  text-align: left;
+  margin-bottom: 60px;
+  max-width: 580px;
+  text-transform: uppercase;
+}
+
+.engagementsList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.engagementBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 64px;
+  width: 85%;
+  max-width: 700px;
+}
+
+.engagementBlock.left {
+  align-self: flex-start;
+  padding-left: 0;
+  padding-right: 10%;
+}
+
+.engagementBlock.right {
+  align-self: flex-end;
+  padding-left: 10%;
+  padding-right: 0;
+}
+
+.engagementBlock.center {
+  align-self: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.engagementNumberSvg {
+  width: 180px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  margin-bottom: 2px;
+  margin-left: -20px;
+}
+
+.engagementTitle {
+  font-family: var(--font-sofia-pro);
+  font-weight: 300;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #bfc7c2;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+  text-align: left;
+  line-height: 1.05;
+}
+
+.engagementText {
+  font-size: 1.08rem;
+  color: #222;
+  margin-bottom: 0.2rem;
+  max-width: 420px;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+  }
+  .section {
+    max-width: 100%;
+    padding: 3rem 1.5rem 0 1.5rem;
+  }
+  .blocBeigeContent {
+    font-size: 1rem;
+    padding: 0 2.5rem;
+  }
+  .intro, .bottomText {
+    font-size: 1rem;
+    padding: 0 0.2rem;
+  }
+  .blocBeigeFull {
+    padding: 2rem 0;
+  }
+}
+
+/* Responsive Engagements */
+@media (max-width: 800px) {
+  .engagementsMain {
+    padding: 32px 24px 40px 24px;
+  }
+  .engagementsTitle {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .engagementsHr {
+    margin-bottom: 24px;
+  }
+  .engagementsIntro p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  .engagementNumberSvg {
+    width: 120px;
+    margin-left: -10px;
+  }
+  .engagementTitle {
+    font-size: 2.2rem;
+  }
+  .engagementText {
+    font-size: 1rem;
+  }
+  .engagementBlock {
+    width: 85%;
+    padding: 0 !important;
+  }
+  .engagementBlock.left {
+    align-self: flex-start !important;
+    padding: 0 !important;
+  }
+  .engagementBlock.right {
+    align-self: flex-end !important;
+    padding: 0 !important;
+  }
+  .engagementBlock.center {
+    align-self: center !important;
+    padding: 0 !important;
+  }
+}
+
+/* Section Offre - Copie exacte de offre.module.css */
+.offreSection {
+  background: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.offreMain {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 24px 0 24px;
+}
+
+.offreTitre {
+  text-align: left;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #0d2823;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.offreHr {
+  border: none;
+  border-top: 2px solid #00261e;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.offreIntro {
+  font-size: 1.35rem;
+  color: #222;
+  margin-bottom: 56px;
+  max-width: 900px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.offreBloc {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin: 64px auto;
+  max-width: 1000px;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+}
+
+.offreBlocContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 80px 80px;
+}
+
+.divider {
+  width: 2px;
+  background: #fff;
+  opacity: 0.85;
+  margin: 0 38px !important;
+  border-radius: 1px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.10);
+  align-self: stretch;
+  min-height: 60px;
+  max-height: 100%;
+  display: block;
+}
+
+/* Les flex-basis sur les dividers spécifiques sont supprimés */
+.bloc1 .divider,
+.bloc2 .divider,
+.bloc3 .divider {
+  flex: none;
+  min-width: 0;
+  width: 2px;
+  margin: 0 24px;
+}
+
+/* Bloc 1 : titre à droite, texte à gauche */
+.bloc1 .offreBlocTitre {
+  flex: 0 0 32%;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 100;
+  text-align: right;
+  padding-left: 40px;
+  padding-right: 0;
+  line-height: 1.05;
+}
+
+.bloc1 .offreBlocTexte {
+  flex: 0 0 54%;
+  font-size: 1.20rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 0;
+  line-height: 1.3;
+}
+
+/* Bloc 2 : titre à gauche, texte à droite */
+.bloc2 .offreBlocTitre {
+  flex: 0 0 44%;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 56px;
+  line-height: 1.05;
+}
+
+.bloc2 .offreBlocTexte {
+  flex: 0 0 44%;
+  font-size: 1.20rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 0;
+  line-height: 1.3;
+}
+
+/* Bloc 3 : titre à droite, texte à gauche */
+.bloc3 .offreBlocTitre {
+  flex: 0 0 36%;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 200;
+  text-align: right;
+  padding-right: 0;
+  line-height: 1.05;
+}
+
+.bloc3 .offreBlocTexte {
+  flex: 0 0 56%;
+  font-size: 1.20rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 56px;
+  padding-left: 0;
+  line-height: 1.3;
+}
+
+/* Responsive Offre */
+@media (max-width: 1100px) {
+  .offreMain {
+    padding: 32px 2vw 0 2vw;
+  }
+  .offreTitre {
+    font-size: 2.8rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  .offreHr {
+    width: 70%;
+  }
+  .offreIntro {
+    font-size: 1rem;
+    padding-left: 12px;
+  }
+  .offreBloc {
+    max-width: 95vw;
+    min-height: 260px;
+    margin: 48px auto;
+  }
+  .offreBlocContent {
+    flex-direction: column;
+    padding: 48px 24px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .divider {
+    display: none;
+  }
+  .offreBlocTitre {
+    font-size: 2.2rem !important;
+    padding: 0 !important;
+    text-align: center !important;
+    margin-bottom: 0;
+    font-weight: 300 !important;
+    order: 1 !important;
+  }
+  .offreBlocTexte {
+    font-size: 1.1rem !important;
+    padding: 0 !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    order: 2 !important;
   }
 }

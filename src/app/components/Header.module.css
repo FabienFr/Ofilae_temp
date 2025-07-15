@@ -77,9 +77,7 @@
   image-rendering: crisp-edges;
 }
 
-.picto[alt="Contact"] {
-  transform: translateY(6px);
-}
+
 
 .headerHome {
   background: none !important;
